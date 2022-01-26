@@ -17,8 +17,6 @@ class HomeView(ListView):
     model = Item
     template_name = "home-page.html"
 
-def home(request):
-    context = {
-        'items' : Item.objects.all()
-    }
-    return render(request, "home-page.html", context)
+class ItemDetailView(DetailView):
+    model = Item
+    template_name = "product-page.html"

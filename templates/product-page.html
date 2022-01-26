@@ -25,7 +25,7 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand waves-effect" href="{% url 'core:home' %}">
+      <a class="navbar-brand waves-effect" href="/">
         <strong class="blue-text">E-Mart</strong>
       </a>
 
@@ -41,15 +41,15 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link waves-effect" href="{% url 'core:home' %}">Home
+            <a class="nav-link waves-effect" href="/">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="{% url 'core:checkout' %}">Checkout</a>
+            <a class="nav-link waves-effect" href="/checkout">Checkout</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect" href="{% url 'core:products' %}"
+            <a class="nav-link waves-effect" href="#"
               target="_blank">Products</a>
           </li>
         </ul>
@@ -94,13 +94,7 @@
 
             <div class="mb-3">
               <a href="">
-                <span class="badge purple mr-1">Category 2</span>
-              </a>
-              <a href="">
-                <span class="badge blue mr-1">New</span>
-              </a>
-              <a href="">
-                <span class="badge red mr-1">Bestseller</span>
+                <span class="badge purple mr-1">{{ object.get_category_display }}</span>
               </a>
             </div>
 
@@ -108,7 +102,7 @@
               <span class="mr-1">
                 <del>$200</del>
               </span>
-              <span>$100</span>
+              <span>${{ object.price }}</span>
             </p>
 
             <p class="lead font-weight-bold">Description</p>
