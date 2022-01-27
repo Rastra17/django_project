@@ -39,6 +39,7 @@ def add_to_cart(request, slug):
             order_item.quantity += 1
             order_item.save()
             messages.info(request, "The item quantity was updated")
+            return redirect("core:product", slug=slug)
         else:
             order.items.add(order_item)
             messages.info(request, "This item was added to your cart")
@@ -66,7 +67,7 @@ def remove_from_cart(request, slug):
                 user=request.user,
                 ordered=False
             )[0]
-            order.items.remove(order_item)
+            order_item.delete()
             messages.info(request, "This item was removed from your cart")
             return redirect("core:product", slug=slug)
         else:
