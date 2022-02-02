@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="new app" />
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="dbsqlite and layout xml">
+      <change afterPath="$PROJECT_DIR$/store/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643785763161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dbsqlite and layout xml">
+      <created>1643785918372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643785918372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +90,7 @@
     <MESSAGE value="initializing project" />
     <MESSAGE value="new prject" />
     <MESSAGE value="new app" />
-    <option name="LAST_COMMIT_MESSAGE" value="new app" />
+    <MESSAGE value="dbsqlite and layout xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="dbsqlite and layout xml" />
   </component>
 </project>
