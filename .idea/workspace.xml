@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Making render methods and template">
-      <change afterPath="$PROJECT_DIR$/uploads/products/OIP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/products/mens-nike-solid-polo-red-polo-shirts.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/products/topshop-red-bandage-peplum-top-product-1-4797547-494820528.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EShop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EShop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="making single page frontend" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643792668322</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="making single page frontend">
+      <created>1643898689414</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643898689415</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +140,7 @@
     <MESSAGE value="Uploading data into products" />
     <MESSAGE value="Added category" />
     <MESSAGE value="Making render methods and template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Making render methods and template" />
+    <MESSAGE value="making single page frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="making single page frontend" />
   </component>
 </project>
