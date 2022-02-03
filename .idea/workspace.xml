@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Added category">
-      <change afterPath="$PROJECT_DIR$/store/migrations/0002_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0003_product_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/orders/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Making render methods and template">
+      <change afterPath="$PROJECT_DIR$/uploads/products/OIP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/products/mens-nike-solid-polo-red-polo-shirts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/products/topshop-red-bandage-peplum-top-product-1-4797547-494820528.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EShop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EShop/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/R.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643787860206</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Making render methods and template">
+      <created>1643792668322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1643792668322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +143,7 @@
     <MESSAGE value="Created product model" />
     <MESSAGE value="Uploading data into products" />
     <MESSAGE value="Added category" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added category" />
+    <MESSAGE value="Making render methods and template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making render methods and template" />
   </component>
 </project>
