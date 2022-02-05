@@ -10,34 +10,45 @@
 
                 {% csrf_token %}
 
+                {% if error %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error }}!
+                </div>
+                {% endif %}
+
                 <!--firstname-->
                 <div class="form-group">
                     <label for="">First Name</label>
-                    <input type="text" name="firstname" id="firstname" class="form-control form-control-sm" placeholder="William" aria-describedby="helpId">
+                    <input type="text" name="firstname" id="firstname" value="{{ values.first_name }}" class="form-control form-control-sm"
+                        placeholder="William" aria-describedby="helpId">
                 </div>
 
                 <!--lastname-->
                 <div class="form-group">
                     <label for="">Last Name</label>
-                    <input type="text" name="lastname" id="lastname" class="form-control form-control-sm" placeholder="Smith" aria-describedby="helpId">
+                    <input type="text" name="lastname" id="lastname" value="{{ values.last_name }}" class="form-control form-control-sm"
+                        placeholder="Smith" aria-describedby="helpId">
                 </div>
 
                 <!--phone-->
                 <div class="form-group">
                     <label for="">Phone Number</label>
-                    <input type="tel" name="phone" id="phone" class="form-control form-control-sm" placeholder="0000000000" aria-describedby="helpId">
+                    <input type="tel" name="phone" id="phone" value="{{ values.phone }}" class="form-control form-control-sm"
+                        placeholder="XXXX XXXX XX" aria-describedby="helpId">
                 </div>
 
                 <!--email-->
                 <div class="form-group">
                     <label for="">Email</label>
-                    <input type="email" name="email" id="email" class="form-control form-control-sm " placeholder="example@email.com" aria-describedby="helpId">
+                    <input required type="email" name="email" id="email" value="{{ values.email }}" class="form-control form-control-sm "
+                        placeholder="example@email.com" aria-describedby="helpId">
                 </div>
 
                 <!--password-->
                 <div class="form-group">
                     <label for="">Password</label>
-                    <input type="password" name="password" id="password" class="form-control form-control-sm" placeholder="********" aria-describedby="helpId">
+                    <input type="password" name="password" id="password" class="form-control form-control-sm"
+                        placeholder="********" aria-describedby="helpId">
                 </div>
 
                 <div class="form-group">
