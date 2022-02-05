@@ -2,6 +2,51 @@
 
 {% block content %}
 
-<h1>Create An Account</h1>
+<div class="container">
+    <div class="p-4 m-4">
+        <div class="col-lg-5 mx-auto border rounded pt-4">
+            <h3 class="alert alert-primary border rounded">Create an Account</h3>
+            <form action="/signup" method="post">
+
+                {% csrf_token %}
+
+                <!--firstname-->
+                <div class="form-group">
+                    <label for="">First Name</label>
+                    <input type="text" name="firstname" id="firstname" class="form-control form-control-sm" placeholder="William" aria-describedby="helpId">
+                </div>
+
+                <!--lastname-->
+                <div class="form-group">
+                    <label for="">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" class="form-control form-control-sm" placeholder="Smith" aria-describedby="helpId">
+                </div>
+
+                <!--phone-->
+                <div class="form-group">
+                    <label for="">Phone Number</label>
+                    <input type="tel" name="phone" id="phone" class="form-control form-control-sm" placeholder="0000000000" aria-describedby="helpId">
+                </div>
+
+                <!--email-->
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="email" class="form-control form-control-sm " placeholder="example@email.com" aria-describedby="helpId">
+                </div>
+
+                <!--password-->
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" name="password" id="password" class="form-control form-control-sm" placeholder="********" aria-describedby="helpId">
+                </div>
+
+                <div class="form-group">
+                    <input class="btn btn-sm btn-info" type="submit" value="Sign Up">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

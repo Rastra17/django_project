@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="making single page frontend">
-      <change afterPath="$PROJECT_DIR$/store/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/signup.html" afterDir="false" />
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Making signup and creating a filter in products">
+      <change afterPath="$PROJECT_DIR$/store/models/customer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/templates/orders/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/orders/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -126,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643898689415</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Making signup and creating a filter in products">
+      <created>1643973808415</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643973808415</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +156,7 @@
     <MESSAGE value="Added category" />
     <MESSAGE value="Making render methods and template" />
     <MESSAGE value="making single page frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="making single page frontend" />
+    <MESSAGE value="Making signup and creating a filter in products" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making signup and creating a filter in products" />
   </component>
 </project>
