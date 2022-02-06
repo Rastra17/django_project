@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="a little addition">
+      <change afterPath="$PROJECT_DIR$/store/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/views/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/views/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/views/signup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
