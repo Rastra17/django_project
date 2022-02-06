@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="a little addition">
-      <change afterPath="$PROJECT_DIR$/store/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/views/home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/views/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/views/signup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" />
-    </list>
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="making class view" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644068042072</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="making class view">
+      <created>1644149898170</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644149898170</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +164,7 @@
     <MESSAGE value="making single page frontend" />
     <MESSAGE value="Making signup and creating a filter in products" />
     <MESSAGE value="a little addition" />
-    <option name="LAST_COMMIT_MESSAGE" value="a little addition" />
+    <MESSAGE value="making class view" />
+    <option name="LAST_COMMIT_MESSAGE" value="making class view" />
   </component>
 </project>
