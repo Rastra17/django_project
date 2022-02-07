@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="making class view">
-      <change afterPath="$PROJECT_DIR$/store/templatetags/cart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/products/-1117Wx1400H-460342492-blue-MODEL.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/products/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/products/download.jpg" afterDir="false" />
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Made cart functionality">
+      <change afterPath="$PROJECT_DIR$/store/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/views/cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templatetags/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/templatetags/cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/views/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views/home.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views/login.py" afterDir="false" />
@@ -49,10 +49,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/store" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/store/views" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rastr\OneDrive\Documents\GitHub\django_project\store\views" />
       <recent name="C:\Users\rastr\OneDrive\Documents\GitHub\django_project\store" />
     </key>
   </component>
@@ -149,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644149898170</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Made cart functionality">
+      <created>1644237858603</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1644237858603</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +185,7 @@
     <MESSAGE value="Making signup and creating a filter in products" />
     <MESSAGE value="a little addition" />
     <MESSAGE value="making class view" />
-    <option name="LAST_COMMIT_MESSAGE" value="making class view" />
+    <MESSAGE value="Made cart functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made cart functionality" />
   </component>
 </project>
