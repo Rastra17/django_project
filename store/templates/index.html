@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
+{% load cart %}
 <!--body-->
 <div class="container-fluid mt-3">
     <div class="row">
@@ -26,7 +28,28 @@
                     <div class="card-body">
                         <p class="card-title">{{ product.name }}</p>
                         <p class="card-text"><b>NPR {{ product.price }}</b></p>
-                        <a href="#" class="btn btn-light border btn-sm">Add to Cart</a>
+                        <!-- {{ product | is_in_cart:request.session.cart }} -->
+
+                    </div>
+
+                    <div class="card-footer p-0 no-gutters">
+                        {% if product|is_in_cart:request.session.cart %}
+                        <div class="row no-gutters">
+                            <input type="submit" value="-" class="col-2 btn btn-block btn-secondary">
+                            <div class="text-center col">
+                                2 in Cart
+                            </div>
+                            <input type="submit" value="+" class="col-2 btn btn-block btn-secondary">
+                        </div>
+
+                        {% else %}
+                        <form action="/" method="post" class="btn-block">
+                            {% csrf_token %}
+                            <input hidden type="number" name="product" value="{{ product.id }}">
+                            <input value="Add to Cart" type="submit"
+                                class="float-right btn btn-light border form-control">
+                        </form>
+                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}
