@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Cart Completed" />
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Cart Completed">
+      <change afterPath="$PROJECT_DIR$/store/migrations/0005_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/migrations/0006_rename_data_order_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/migrations/0007_order_address_order_phone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/migrations/0008_alter_order_address_alter_order_phone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/models/orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/templatetags/custom_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/views/checkout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +60,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rastr\OneDrive\Documents\GitHub\django_project\store\views" />
+      <recent name="C:\Users\rastr\OneDrive\Documents\GitHub\django_project\store\models" />
+      <recent name="C:\Users\rastr\OneDrive\Documents\GitHub\django_project\store\templatetags" />
       <recent name="C:\Users\rastr\OneDrive\Documents\GitHub\django_project\store" />
     </key>
   </component>
