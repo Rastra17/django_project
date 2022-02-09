@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="adding orders">
-      <change afterPath="$PROJECT_DIR$/store/middlewares/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/middlewares/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0009_order_status.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templates/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/views/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/orders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/templates/orders/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/templatetags/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/templatetags/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views/login.py" afterDir="false" />
-    </list>
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Website nearly complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644330434405</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Website nearly complete">
+      <created>1644393303929</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644393303929</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +199,7 @@
     <MESSAGE value="Made cart functionality" />
     <MESSAGE value="Cart Completed" />
     <MESSAGE value="adding orders" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding orders" />
+    <MESSAGE value="Website nearly complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Website nearly complete" />
   </component>
 </project>
