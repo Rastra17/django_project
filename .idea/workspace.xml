@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="Cart Completed">
-      <change afterPath="$PROJECT_DIR$/store/migrations/0005_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0006_rename_data_order_date.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0007_order_address_order_phone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0008_alter_order_address_alter_order_phone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/models/orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/templatetags/custom_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/views/checkout.py" afterDir="false" />
+    <list default="true" id="b1db4023-c931-4fca-ba90-2085ded1ff15" name="Changes" comment="adding orders">
+      <change afterPath="$PROJECT_DIR$/store/middlewares/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/middlewares/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/migrations/0009_order_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/templates/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/views/orders.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/orders.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templates/orders/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templatetags/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/templatetags/cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views/login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644249337752</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="adding orders">
+      <created>1644330434405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644330434405</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +205,7 @@
     <MESSAGE value="making class view" />
     <MESSAGE value="Made cart functionality" />
     <MESSAGE value="Cart Completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cart Completed" />
+    <MESSAGE value="adding orders" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding orders" />
   </component>
 </project>
