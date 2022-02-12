@@ -11,7 +11,6 @@ class CheckOut(View):
         customer = request.session.get('customer')
         cart = request.session.get('cart')
         products = Product.get_product_by_id(list(cart.keys()))
-        print(address, phone, customer, cart, products)
 
         for product in products:
             order = Order(customer=Customer(id=customer),
