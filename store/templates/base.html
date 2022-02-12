@@ -1,3 +1,5 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
 
@@ -10,12 +12,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Disegno Reale</title>
+    <link rel="icon" href="{% static '/images/royal.jpg' %}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+        .heading
+        {
+            font-family: 'Festive', cursive;
+            font-size: 150%;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Festive&family=Redressed&display=swap');
+        .nav-fonts
+        {
+            font-family: 'Redressed', cursive;
+            font-size: 120%;
+        }
+        .image-render
+        {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/"><b>Disegno Reale</b></a>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #cc7350;">
+        <a class="navbar-brand" href="/">
+            <img style="height:60px;" src="{% static '/images/royal.jpg' %}" class="img-thumbnail img-fluid image-render">
+            <strong class="heading align-middle">
+                Disegno Reale
+            </strong>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,30 +52,30 @@
 
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Store <span class="sr-only">(current)</span></a>
+                    <a class="nav-link nav-fonts align-middle" href="#">Store <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
 
             <ul class="navbar-nav my-2 my-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/cart">Cart 
+                    <a class="nav-link nav-fonts align-middle" href="/cart">Cart 
                         <span class="badge badge-danger">{{ request.session.cart.keys|length }}</span>
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 {% if request.session.customer %}
                 <li class="nav-item active">
-                    <a class="nav-link" href="/orders">Orders <span class="sr-only">(current)</span></a>
+                    <a class="nav-link nav-fonts align-middle" href="/orders">Orders <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/logout">Logout <span class="sr-only">(current)</span></a>
+                    <a class="nav-link nav-fonts align-middle" href="/logout">Logout <span class="sr-only">(current)</span></a>
                 </li>
                 {% else %}
                 <li class="nav-item active">
-                    <a class="nav-link" href="/signup">Signup <span class="sr-only">(current)</span></a>
+                    <a class="nav-link nav-fonts align-middle" href="/signup">Signup <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/login">Login <span class="sr-only">(current)</span></a>
+                    <a class="nav-link nav-fonts align-middle" href="/login">Login <span class="sr-only">(current)</span></a>
                 </li>
                 {% endif %}
             </ul>

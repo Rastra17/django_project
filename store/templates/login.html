@@ -1,11 +1,14 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block content %}
 
 <div class="container">
     <div class="p-4 m-4">
         <div class="col-lg-4 mx-auto border rounded pt-4">
             <h3 class="alert alert-primary border rounded">Login Page</h3>
+            <img src="{% static '/images/shop.jpg' %}" class="img-fluid image-render">
             <form action="/login" method="post">
 
                 {% csrf_token %}
