@@ -13,10 +13,10 @@
 
         <div class="col-lg-3 mx-auto">
             <div class="list-group">
-                <a href="/" class="list-group-item list-group-item-action">All products</a>
+                <a href="/" class="list-group-item list-group-item-action list-group-item-primary side-bar">All Products</a>
                 {% for category in categories %}
                 <a href="/?category={{ category.id }}"
-                    class="list-group-item list-group-item-action">{{ category.name }}</a>
+                    class="list-group-item list-group-item-action list-group-item-success side-bar">{{ category.name }}</a>
                 {% endfor %}
             </div>
         </div>
