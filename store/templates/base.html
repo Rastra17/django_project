@@ -14,13 +14,12 @@
     <title>Disegno Reale</title>
     <link rel="icon" href="{% static '/images/royal.jpg' %}">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Festive&family=Redressed&family=Shizuru&display=swap');
         .heading
         {
             font-family: 'Festive', cursive;
             font-size: 150%;
         }
-        @import url('https://fonts.googleapis.com/css2?family=Festive&family=Redressed&display=swap');
         .nav-fonts
         {
             font-family: 'Redressed', cursive;
@@ -31,6 +30,11 @@
             max-width: 100%;
             height: auto;
         }
+        .search-header
+        {
+            font-family: 'Shizuru', cursive;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -38,7 +42,7 @@
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #cc7350;">
         <a class="navbar-brand" href="/">
-            <img style="height:60px;" src="{% static '/images/royal.jpg' %}" class="img-thumbnail img-fluid image-render">
+            <img style="height:60px;" src="{% static '/images/royal.jpg' %}" class="img-thumbnail img-fluid image-render rounded-circle">
             <strong class="heading align-middle">
                 Disegno Reale
             </strong>
@@ -51,9 +55,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link nav-fonts align-middle" href="#">Store <span class="sr-only">(current)</span></a>
-                </li>
+                <form class="form-inline" method="post" action="/search">
+
+                    {% csrf_token %}
+
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search here" aria-label="Search" name="searched">
+                    <button class="btn bg-dark text-white my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </ul>
 
             <ul class="navbar-nav my-2 my-lg-0">
