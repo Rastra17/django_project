@@ -13,7 +13,8 @@
 
         <div class="col-lg-3 mx-auto">
             <div class="list-group">
-                <a href="/" class="list-group-item list-group-item-action list-group-item-primary side-bar">All Products</a>
+                <a href="/" class="list-group-item list-group-item-action list-group-item-primary side-bar">All
+                    Products</a>
                 {% for category in categories %}
                 <a href="/?category={{ category.id }}"
                     class="list-group-item list-group-item-action list-group-item-success side-bar">{{ category.name }}</a>
@@ -26,10 +27,12 @@
             <div class="row mx-auto">
                 {% for product in products %}
                 <div class="card mx-auto mb-3" id="{{product.id}}" style="width: 18rem;">
-                    <img class="card-img-top" src="{{ product.image.url }}" alt="Card image cap">
+                    <img class="card-img-top img-fluid image-render" style="height: 375px;"
+                        src="{{ product.image.url }}" alt="Card image cap">
                     <div class="card-body">
+                        <p class="card-text"><b>{{ product.price|currency }}</b></p>
                         <p class="card-title"><b>{{ product.name }}</b></p>
-                        <p class="card-text text-xl-left"><b>{{ product.price|currency }}</b></p>
+                        <p class="card-text">{{ product.description }}</p>
                         <!-- {{ product | is_in_cart:request.session.cart }} -->
 
                     </div>
