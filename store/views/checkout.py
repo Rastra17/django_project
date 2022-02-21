@@ -12,8 +12,9 @@ class CheckOut(View):
         cart = request.session.get('cart')
         products = Product.get_product_by_id(list(cart.keys()))
 
-        for product in products:
-            order = Order(customer=Customer(id=customer),
+        if customer:
+            for product in products:
+                order = Order(customer=Customer(id=customer),
                           product=product,
                           price=product.price,
                           address=address,
@@ -24,4 +25,7 @@ class CheckOut(View):
 
             request.session['cart'] = {}
 
-        return redirect('cart')
+            return redirect('homepage')
+
+        else:
+            return redirect('login')
